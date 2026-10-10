@@ -38,8 +38,8 @@ keys: `rh_fs` (text size), `rh_bm` (bookmarks), `rh_seen` (games),
 ### Option A: with the Flask server (recommended; key stays in `.env`)
 
 ```bash
-git clone [this-repository-url>](https://github.com/StudyingStatistics/PsycheDive)
-cd psychedive_app
+git clone https://github.com/StudyingStatistics/PsycheDive.git
+cd PsycheDive
 
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
